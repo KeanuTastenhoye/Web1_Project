@@ -1,0 +1,607 @@
+    /* Responsive */
+
+        @media screen and (max-width: 30em) {
+            
+            ul.nav {
+                flex-direction: column;
+            }
+            
+            li.nav,
+            li.nav:first-child{
+                width: 100%;
+            }
+            
+            nav a {
+                border: 1px solid #000000;
+            }
+            
+            aside.sidebar {
+                min-width: 100%;
+                width: auto;
+                margin-bottom: 2%;
+            }
+     
+            aside.sidebar iframe.fb {
+                min-width: 400px;
+                margin-left: 13%;
+            }
+            
+            aside.sidebar div.uren {
+                font-size: 125%;
+            }
+            
+            h1.titel {
+                font-size: 150%;
+                margin-left: 1%;
+                margin-right: 1%;
+            }
+
+            section.wie, section.waarom {
+                margin-left: 1%;
+                margin-right: 1%;
+            }
+            
+            section.waar {
+                margin-top: 5%;
+                margin-left: 1%;
+                margin-right: 1%;
+            }
+            
+            img.waarom {
+                margin-bottom: 1%;
+            }
+            
+            h2.menu, h2.uren2, h2.contact {
+                text-align: center;
+                font-size: 125%;
+                margin-right: 17%;
+            }
+            
+            div.eenMenu, div.tweeMenu, div.drieMenu {
+                float: left;
+                line-height: 150%;
+                margin-left: 1%;
+            }
+            
+            div.uren2, div.dagen, div.parking, div.betaling, div.zitplaatsen, img.foto {
+                margin-left: 1%;
+            }
+            
+            form, img.contact{
+                margin-left: 1%;
+            }
+            
+            textarea {
+                width: 90%;
+            }
+            
+            iframe.map {
+                margin-left: 10%;
+                max-width: 100%;
+                max-height: 15em;
+            }
+            
+            footer {
+                min-width: 100%;
+                width: auto;
+                flex-direction: column;
+                display: block;
+            }
+            
+            footer img.logo {
+                margin-left: 0%;
+                margin-right: 0%;
+            }
+            
+            img.visitekaartje {
+                margin-top: 2%;
+            }
+            
+            footer p.copyright {
+                font-size: 75%;
+                margin-top: 1%;
+            }
+            
+            footer img.bicky {
+                margin-left: 0%;
+                margin-right: 1%;
+            }
+            
+            footer ul.footer2 {
+                float: right;
+                margin-left: auto;
+                margin-top: 5%;
+            }
+            
+            footer ul.footer2 a.footer2 {
+                font-size: 90%;
+            }
+        }
+
+        @media screen and (max-width: 90em) {
+            
+            div.uren {
+                font-size: 75%;
+            }
+            
+            img.waarom {
+                margin-left: 0%;
+            }
+            
+            img.waarom2 {
+                margin-left: 10.5%;
+            }
+            
+            div.eenMenu, div.tweeMenu, div.drieMenu {
+                line-height: 130%;
+                margin-right: 2%;
+            }
+            
+            footer img.logo {
+                margin-left: 5%;
+            }
+            
+            footer img.bicky {
+                margin-left: 0%;
+            }
+            
+            footer img.visitekaartje {
+                max-width: 13%;
+            }
+            
+            footer ul.footer2 {
+                margin-top: -9.5%;
+            }
+        }
+
+    /* Header */
+
+        header {
+            width: 100%;
+        }
+
+        img.banner {
+            width: 100%;
+            height: auto;
+            max-height: 20em;
+        }
+
+        ul.nav {
+            display: flex;
+        }
+
+        li.nav {
+            display: inline;
+            font-size: 200%;
+            font-family: arial;
+            border-style: none;
+            list-style: none;
+            text-align: center;
+            background-color: #3862e0;
+            margin-top: -0.2%;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        li.nav:hover {
+            background-color: #1c41b0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000000;
+            display: block;
+        }
+
+    /* Sidebar */
+
+        aside.sidebar {
+            float: left;
+            margin-top: 1.5%;
+            margin-right: 1%;
+            line-height: 200%;
+            background-color: #3862e0;
+            height: 100%;
+            width: 18%
+        }
+    
+        div.uren {
+            margin-left: 3%;
+            margin-top: 7%;
+            margin-right: 3%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        a.dag {
+            font-weight: bold;
+        }
+
+        div.snack {
+            margin-left: 3%;
+            margin-top: 6%;
+            margin-right: 3%;
+        }
+
+        img.snack{
+            height: auto;
+            max-height: 20%;
+            min-height: 6em;
+            height: auto;
+            max-width: 100%;
+            min-width: 6em;
+            width: auto;
+        }
+
+        p.snack {
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 3%;
+        }
+
+        iframe.fb {
+            margin-top: 7%;
+            margin-bottom: 5%;
+            margin-left: 3%;
+            margin-right: 3%;
+            width: 93%;
+            
+        }
+
+    /* Body */
+
+        /* Home */
+
+        body {
+            background-color:#91a8ee;
+            font-family: arial;
+            max-width: 100%;
+        }
+
+        h1 {
+            font-weight: bold;
+            font-size: 250%;
+            text-align: left;
+            margin-left: 32%;
+            margin-top: 1%;
+        }
+
+        img.BartEnLaura {
+            display: inline;
+            float: left;
+            margin-top: 2%;
+            margin-right: 1rem;
+            max-width: 20%;
+            min-width: 7em;
+            width: auto;
+            max-height: 20%;
+            min-height: 7em;
+            height: auto;
+        }
+
+        img.diploma {
+            display: inline;
+            margin-right: 1%;
+            float: right;
+            margin-top: 0.5%;
+            max-width: 15%;
+            min-width: 6em;
+            width: auto;
+            max-height: 25em;
+            min-height: 9em;
+            height: auto;
+        }
+        
+        section.wie {
+            text-align: left;
+            margin-top: 1.2%;
+        }
+        
+        h4.wie {
+            font-weight: bold;
+            font-size: 100%;
+            display: block;
+            padding-top: 5.5%;
+            text-align: left;
+        }
+        
+        p.wie {
+            display: block;
+            margin-top: 1%;
+            margin-right: 1%;
+            text-align: left;
+        }
+
+        h4.waar {
+            font-weight: bold;
+            font-size: 100%;
+            display: block;
+            padding-top: 1%;
+            text-align: left;
+        }
+
+        p.waar {
+            display: block;
+            margin-top: 1%;  
+            text-align: left;
+        }
+
+        img.uitzicht, img.indoorLinks, img.indoorRechts {
+            margin-top: 1%;
+            margin-right: 0.5%;
+            max-height: 15.6em;
+            min-height: 6em;
+            height: auto;
+            max-width: 10.3%;
+            min-width: 3em;
+            width: auto;
+        }
+
+        h4.waarom {
+            font-weight: bold;
+            font-size: 100%;
+            display: block;
+            padding-top: 9%;
+        }
+
+        p.waarom {
+            display: block;
+            margin-top: 1%;  
+            text-align: left;
+            margin-right: 17%;
+        }
+        
+        img.waarom {
+            float: left;
+            margin-left: 0%;
+            margin-top: 1%;
+            max-height: 15.6em;
+            min-height: 7em;
+            height: auto;
+            max-width: 19%;
+            min-width: 7em;
+            width: auto;
+        }
+
+        img.waarom2 {
+            float: right;
+            margin-top: 1%;
+            margin-right: 1%;
+            max-height: 15.6em;
+            min-height: 7em;
+            height: auto;
+            max-width: 19%;
+            min-width: 7em;
+            width: auto;
+        }
+
+        /* Menu */
+
+        h2.menu {
+            font-weight: bold;
+            font-size: 175%;
+            margin-top: 3%;
+        }
+
+        div.eenMenu, div.tweeMenu, div.drieMenu {
+            float: left; 
+            margin-right: 2%;
+            margin-top: 1%;
+        }
+
+        h3.SubTitel1, h3.SubTitel2, h3.SubTitel3 {
+            font-weight: bold;
+            margin-top: 1%;
+            line-height: 200%;
+        }
+
+        img.vergelijking {
+            -webkit-transform: rotate(-90deg);
+            margin-top: 7.6%;
+            margin-left: 0%;
+            max-height: 37.5em;
+            min-height: 9em;
+            height: auto;
+            max-width: 20%;
+            min-width: 8em;
+            width: auto;
+            float: right;
+            margin-right: 15%;
+        }
+
+        /* Praktische Info */
+
+
+        h2.uren2 {
+            font-weight: bold;
+            font-size: 175%;
+            margin-top: 3%;
+        }
+
+        a.uren2 {
+            font-weight: bold;
+        }
+
+        a.dagen, a.parking, a.zitplaatsen, a.betaling {
+            font-weight: bold;
+            line-height: 300%;
+        }
+
+        div.uren2 {
+            margin-top: 2%;
+            line-height: 200%;
+            margin-right: 13%;
+            float: left;
+        }
+
+        div.dagen {
+            float: left;
+            margin-top: 2%;
+        }
+
+        section.info {
+            float: left;
+            margin-top: 3%;
+        }
+
+        img.logoPI {
+            margin-left: 15%;
+            max-height: 15.6em;
+            min-height: 7em;
+            height: auto;
+            min-width: 7em;
+            width: auto;
+        }
+
+        img.foto {
+            margin-top: 2%;
+            max-height: 19.1em;
+            min-height: 7em;
+            height: auto;
+            max-width: 46%;
+            min-width: 10em;
+            width: auto;
+        }
+        
+        img.curryworst {
+            float: right;
+            margin-right: 1%;
+            margin-top: 2%;
+            max-height: 19.1em;
+            min-height: 7em;
+            height: auto;
+            max-width: 20%;
+            min-width: 7em;
+            width: auto;
+        }
+
+        /* Contact */
+
+
+
+        h2.contact {
+            font-weight: bold;
+            font-size: 175%;
+            margin-top: 3%;
+        }
+
+        form {
+            line-height: 24px;
+            margin-top: 2%;
+            float: left;
+            margin-right: 3%;
+        }
+
+        input.een, input.twee, input.drie {
+            max-width: 38%;
+        }
+
+        textarea {
+            max-width: 100%;    
+        }
+
+        img.contact {
+            float: left;
+            margin-top: 3%;
+            margin-right: 2%;
+            max-height: 16.7em;
+            min-height: 7em;
+            height: auto;
+            max-width: 19%;
+            min-width: 7em;
+            width: auto;
+        }
+
+        div.contact {
+            float: right;
+            margin-right: 5%;
+            margin-top: 3%;
+            line-height: 200%;
+        }
+
+        a.vet{
+            font-weight: bold;
+        }
+
+        iframe.map {
+            margin-top: 1%;
+            margin-right: 1%;
+            height: 33em;
+            width: 80%;
+        }
+
+    /* Footer */
+
+        footer {
+            background-color: #3862e0;
+            max-width: 100%;
+            height: 9em;
+            position: static;
+            clear: both;
+        }
+       
+        a.footer {
+            display: block;
+            color: #000;
+            text-decoration: none;
+            float: left;
+            padding: 8px 16px;
+            font-weight: bold;
+            font-size: 120%;
+            margin-right: 1rem;
+        }
+
+        ul.footer {
+            list-style-type: none;
+            float: left;
+            display: flex;
+            flex-direction: column;
+        }
+
+        img.logo {
+            float: left;
+            margin-left: 10%;
+            max-height: 9em;
+            height: auto;
+            max-width: 30%;
+        }
+            
+        img.bicky {
+            float: left;
+            margin-left: 10%;
+            margin-right: 9%;
+            max-height: 9em;
+            height: auto;
+            max-width: 60%;
+        }
+
+        img.visitekaartje {
+            max-height: 10%;
+            min-height: 6em;
+            max-width: 10%;
+            min-width: 9em;
+        }
+
+        div.visiteKaartje {
+            margin-left: 0%;
+            margin-right: 1%;
+        }
+
+        a.footer2 {
+            list-style: none;
+            font-size: 150%;
+            font-family: arial;
+            display: block;
+            line-height: 180%;
+            float: right;
+        }
+
+        ul.footer2 {
+            list-style-type: none;
+            margin-left: 5%;
+            margin-right: 1%;
+            margin-top: -7%;
+            display: block;
+            float: right;
+        }
+            
